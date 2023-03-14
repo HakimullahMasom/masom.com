@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    background-color: green;
+    height: 150px;
+}
+
+#logo {
+    width: 10%;
+    padding-left: 10px;
+    padding-right: 5px;
+    float: left;
+}
+
+#logo1 {
+    width: 10%;
+    padding-left: 10px;
+    padding-right: 5px;
+    float: right;
+}
+
+#title {
+    width: 75%;
+    text-align: center;
+    float: left;
+    display: inline;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    font-family: agency;
+    font-size: 35px;
+    font-style: italic bold;
+    padding-top: 20px;
+}
+
+#title۱ {
+    width: 75%;
+    text-align: center;
+    float: left;
+    display: inline;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    font-family: agency;
+    font-size: 50px;
+    padding-top: 6px;
+
+}
+
+#nav {
+    height: 50px;
+    background-color: red;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    direction: rtl;
+}
+
+li {
+    float: right;
+    margin-left: 15px;
+}
+
+li a {
+    text-decoration: none;
+    margin: 5px;
+    font-size: 25px;
+    color: white;
+    float: right;
+    padding-top: 5px;
+
+}
+
+li a:hover {
+    background-color: brown;
+    border: 3px red dotted
+}
+
+#lsb {
+    background-color: rebeccapurple;
+    min-height: 600px;
+    width: 20%;
+    float: left;
+}
+
+#content {
+    background-color: purple;
+    min-height: 500px;
+    width: 80%;
+    float: left;
+}
+
+#rsb {
+    background-color: orange;
+    min-height: 600px;
+    width: 20%;
+    float: right;
+}
+
+#detail {
+    clear: both;
+}
+
+#footer1 {
+    background-color: brown;
+    height: 40px;
+    color: white;
+    font-size: 25px;
+    text-align:center;
+    float: center ;
+
+
+}
+
+#two {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+#one {
+    text-align: right;
+    color: black;
+    font-size: 21px;
+    margin-right: 16px;
+}
+#one1 {
+    text-align: right;
+    color:white;
+    font-size: 21px;
+    margin-right: 16px;
+}
+
+#move {
+    background-color: peru;
+    padding: 10px;
+    border-radius: 25px;
+    margin-top: 10px;
+    color: white;
+    border: 3px solid;
+}
+
+@media screen and (max-width:1410px) {
+    #title {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    #lsb #rsb #content {
+        width: 100%
+    }
+
+    #title {
+        font-size: 25px;
+    }
+
+    #title1 {
+        font-size: 25px;
+    }
+
+    #logo {
+        width: 50%
+    }
+
+    #logo {
+        width: 50%
+    }
+
+    #nav {
+        height: 120px;
+    }
+}
+
+@media screen and {
+    (max-width:380px;) {
+        #title {
+            font-size: 15px;
+        }
+
+            {
+            #title1 {
+                font-size: 15px;
+            }
+        }
+    }
